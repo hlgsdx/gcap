@@ -1,0 +1,55 @@
+name: Update geosite CN AutoProxy
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: '0 23 * * *'
+  push:
+    paths:
+      - '.github/workflows/update.yml'
+      - 'cmd/**'
+      - 'scripts/**'
+      - 'go.mod'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-geosite-cn
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 210
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: '1.23.x'
+
+      - name: Test converter
+        run: go test ./...
+
+      - name: Fetch, validate and convert upstream
+        id: update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash ./scripts/update.sh
+
+      - name: Commit generated rules
+        run: |
+          git add cn.txt cn.base64.txt
+          if git diff --cached --quiet; then
+            echo 'No rule changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update geosite:cn from ${{ steps.update.outputs.upstream_tag }}'
+          git push
