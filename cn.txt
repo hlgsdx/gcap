@@ -475,7 +475,9 @@
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?sequoia\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?service\.urchin\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?sf-api-token-service\.itunes\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
+/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?sh-pod1-smp-device\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?sh-pod2-smp-device\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
+/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?sh-pod3-smp-device\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?shazam-insights\.cdn-apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?shell\.cdn\.office\.net(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?smp-device-content\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
@@ -61421,8 +61423,6 @@
 ||longanlaw.com
 ||longau.com
 ||longbenren.com
-||longbridgeapp.com
-||longbridgehk.com
 ||longcai.com
 ||longcai027.com
 ||longcat.chat
