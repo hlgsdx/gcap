@@ -121,6 +121,7 @@
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?communities\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?configuration\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?configuration\.apple\.com\.akadns\.net(?::\d+)?(?:\/|[?#]|$)/
+/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?configuration\.ls\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?connectivitycheck\.gstatic\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?crashlyticsreports-pa\.googleapis\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?crl-lb\.apple\.com\.akadns\.net(?::\d+)?(?:\/|[?#]|$)/
@@ -337,10 +338,12 @@
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?msdprod-ad\.download\.prss\.microsoft\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?msproduct\.download\.prss\.microsoft\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?music\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
+/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?musicstatus\.itunes\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?musicstatus\.music\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?mvod\.itunes\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?myapp\.itunes\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?myvs\.download\.prss\.microsoft\.com(?::\d+)?(?:\/|[?#]|$)/
+/^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?mzstorekit\.itunes\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?np-edge\.itunes\.apple\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?ntp1\.aliyun\.com(?::\d+)?(?:\/|[?#]|$)/
 /^[a-zA-Z][a-zA-Z0-9+.-]*:\/\/(?:[^@\/?#]+@)?ntp1\.tencent\.com(?::\d+)?(?:\/|[?#]|$)/
@@ -18581,6 +18584,7 @@
 ||capsuleshanghai.com
 ||captain-cro.com
 ||captainbi.com
+||captive.apple.com
 ||capturetheflag.fun
 ||capvision.com
 ||capwhale.com
