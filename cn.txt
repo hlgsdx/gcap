@@ -59586,6 +59586,7 @@
 ||lenovoconnect.com
 ||lenovoeservice.com
 ||lenovofile.com
+||lenovofuturecenter.com
 ||lenovogame.com
 ||lenovohci.com
 ||lenovohuishang.com
@@ -74253,6 +74254,7 @@
 ||qpkaifa.com
 ||qplus.com
 ||qplusstatic.com
+||qpmcn.com
 ||qpoc.com
 ||qpstar.com
 ||qpwater.com
@@ -89037,6 +89039,7 @@
 ||trpc.center
 ||trpc.group
 ||trpc.tech
+||trpcdn.com
 ||trpcdn.net
 ||trs-logistics.com
 ||trsoft.vip
@@ -106638,6 +106641,7 @@
 ||zhaokuaizhao.com
 ||zhaolaobanla.com
 ||zhaoliangji.com
+||zhaoliangjipc.com
 ||zhaoliming.net
 ||zhaoming.biz
 ||zhaomishijie.com
